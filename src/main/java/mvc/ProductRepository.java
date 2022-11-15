@@ -12,7 +12,7 @@ public class ProductRepository {
     private List<Product> products;
 
     public List<Product> getProducts() {
-        return Collections.unmodifiableList(products);
+        return products;
     }
 
     @PostConstruct
